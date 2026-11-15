@@ -1,0 +1,13 @@
+{
+  "name": "scrape2serve",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless website scraping with Puppeteer for a multi-stage Docker application.",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}
